@@ -47,25 +47,6 @@ superstore-sales-analytics/
 
 ---
 
-## 🗂️ Dataset
-
-| Detail | Info |
-|---|---|
-| **Source** | [Kaggle — Sample Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final) |
-| **Rows** | 9,994 |
-| **Columns (raw)** | 19 |
-| **Columns (cleaned)** | 29 |
-| **Date Range** | January 2021 – December 2024 |
-| **Geography** | USA — 4 regions, 20 states |
-
-### Raw Columns
-`Row ID` · `Order ID` · `Order Date` · `Ship Date` · `Ship Mode` · `Customer ID` · `Customer Name` · `Segment` · `City` · `State` · `Region` · `Product ID` · `Category` · `Sub-Category` · `Product Name` · `Sales` · `Quantity` · `Discount` · `Profit`
-
-### Engineered Columns (added during cleaning)
-`Year` · `Month` · `Month Name` · `Quarter` · `Days to Ship` · `Profit Margin %` · `Revenue per Unit` · `Discount %` · `Profit Flag` · `Margin Band`
-
----
-
 ## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
@@ -135,7 +116,7 @@ File: `03_Superstore_SQL_EDA.sql`
 
 ## 🖥️ Interactive Dashboard
 
-The HTML dashboard (`superstore_dashboard_light.html`) replicates a Power BI-style enterprise dashboard built entirely in HTML, CSS, and JavaScript with Chart.js. It includes:
+The HTML dashboard (`superstore_Sales_dashboard.html`) replicates a Power BI-style enterprise dashboard built entirely in HTML, CSS, and JavaScript with Chart.js. It includes:
 
 - **KPI cards** with YoY growth indicators and sparklines
 - **5 report pages** — Executive Overview, Sales Analysis, Profit Analysis, Customer Analysis, Product Analysis
@@ -180,22 +161,15 @@ python Superstore_Data_Cleaning_Script.py
 ```sql
 -- Works in MySQL, PostgreSQL, or SQLite
 -- Step 1: Create the sales table using the CREATE TABLE at top of the file
--- Step 2: Import 01_Superstore_Raw_Dataset.csv into the table
+-- Step 2: Import Superstore_Raw_Dataset.csv into the table
 -- Step 3: Run any section of queries
 ```
 
 ### Interactive Dashboard
 ```
-Open superstore_dashboard_light.html in any modern browser.
+Open superstore_Sales_dashboard.html in any modern browser.
 No server, no installation, no login required.
 ```
-
----
-
-## 📷 Dashboard Preview
-
-> Add a screenshot here after uploading to GitHub:
-> `![Dashboard Preview](dashboard/screenshot.png)`
 
 ---
 
@@ -210,10 +184,9 @@ No server, no installation, no login required.
 
 ## 📬 Contact
 
-**[Your Name]**
-📧 [your.email@gmail.com]
-🔗 [LinkedIn Profile URL]
-🌐 [Portfolio Website URL]
+**[Sai Swetha Etikala]**
+📧 [saiswethaetikala08@gmail.com]
+🔗 [https://www.linkedin.com/in/saiswethaetikala]
 
 ---
 
