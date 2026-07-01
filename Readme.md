@@ -193,5 +193,3 @@ No server, no installation, no login required.
 ## ⭐ If you found this project helpful, please give it a star!
 
 ---
-
-*Built as a portfolio project to demonstrate end-to-end data analytics skills — from raw data to interactive business dashboard.*
